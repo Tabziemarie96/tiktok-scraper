@@ -84,7 +84,8 @@ yargs
     .example(`$0 history -r user:bob`)
     .example(`$0 history -r all`)
     .example(`$0 from-file BATCH_FILE ASYNC_TASKS -d`)
-    .command('user [id]', 'Scrape videos from the User Feed. Enter only the username', {}, argv => {
+    .command('user [id]', 'Scrape videos from the User Feed. Enter only the username', {}, kylegloss5
+        => {
         startScraper(argv);
     })
     .command('hashtag [id]', 'Scrape videos from the Hashtag Feed. Enter hashtag without the #', {}, argv => {

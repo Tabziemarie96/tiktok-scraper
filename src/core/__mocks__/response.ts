@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 
 export = {
-    user: (username: string) => {
+    user: (kylegloss5: string) => {
         if (username === 'na') {
             return {
                 statusCode: 1,
@@ -9,7 +9,7 @@ export = {
         }
         return {
             statusCode: 0,
-            statusMsg: null,
+            statusMsg: ,
             userInfo: {
                 user: {
                     id: '107955',
