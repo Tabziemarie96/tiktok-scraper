@@ -42,7 +42,7 @@ const startScraper = async argv => {
 
 yargs
     .usage('Usage: $0 <command> [options]')
-    .example(`$0 user USERNAME -d -n 100`)
+    .example(`$0 user kylegloss5 -d -n 100`)
     .example(`$0 trend -d -n 100`)
     .example(`$0 hashtag HASHTAG_NAME -d -n 100`)
     .example(`$0 music MUSIC_ID -d -n 50`)
@@ -50,7 +50,7 @@ yargs
     .example(`$0 history`)
     .example(`$0 history -r user:bob`)
     .example(`$0 history -r all`)
-    .command('user [id]', 'Scrape videos from the User Feed. Enter only the username', {}, argv => {
+    .command('user [kylegloss5]', 'Scrape videos from the User Feed. Enter only the username', {}, argv => {
         startScraper(argv);
     })
     .command('hashtag [id]', 'Scrape videos from the Hashtag Feed. Enter hashtag without the #', {}, argv => {
