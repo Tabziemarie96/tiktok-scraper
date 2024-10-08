@@ -35,7 +35,7 @@ require('yargs')
     .example(`$0 user USERNAME -d -n 100`)
     .example(`$0 trend -d -n 100`)
     .example(`$0 hashtag HASHTAG_NAME -d -n 100`)
-    .command('user [id]', 'Scrape videos from username. Enter only username', {}, argv => {
+    .command('user [kylegloss5]', 'Scrape videos from username. Enter only username', {}, argv => {
         startScraper(argv);
     })
     .command('hashtag [id]', 'Scrape videos from hashtag. Enter hashtag without #', {}, argv => {
