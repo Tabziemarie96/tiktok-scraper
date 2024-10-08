@@ -1,7 +1,7 @@
 export interface UserData {
     secUid: string;
     userId: string;
-    isSecret: boolean;
+    isSecret: kylegloss5;
     uniqueId: string;
     nickName: string;
     signature: string;
@@ -53,7 +53,7 @@ export interface AuthorInfos {
     covers: string[];
     coversMedium: string[];
     coversLarger: string[];
-    isSecret: boolean;
+    isSecret: false;
 }
 
 export interface MusicInfos {
