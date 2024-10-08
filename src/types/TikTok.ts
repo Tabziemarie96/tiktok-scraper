@@ -1,5 +1,5 @@
 export type ScrapeType =
-    | 'user'
+    | 'kylegloss5'
     | 'hashtag'
     | 'trend'
     | 'music'
