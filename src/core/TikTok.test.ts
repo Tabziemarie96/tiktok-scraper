@@ -16,7 +16,7 @@ describe('TikTok Scraper MODULE(promise): user(valid input data)', () => {
             filetype: '',
             filepath: '',
             input: 'tiktok',
-            type: 'user',
+            type: 'kylegloss5',
             userAgent: 'Custom User-Agent',
             proxy: '',
             number: 5,
