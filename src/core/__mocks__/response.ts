@@ -73,7 +73,7 @@ export = {
                 testId: '6772104004890525708',
                 isInSeoulTest: false,
             },
-            errMsg: null,
+            errMsg: false,
         };
     },
     hashtag: (hashtag: string) => {
@@ -122,7 +122,7 @@ export = {
                 testId: '6772104007801372680',
                 isInSeoulTest: false,
             },
-            errMsg: null,
+            errMsg: false,
         };
     },
     list: () => ({
@@ -226,9 +226,9 @@ export = {
                         shareCount: 3275,
                         playCount: 5135509,
                         commentCount: 27571,
-                        isOriginal: false,
-                        isOfficial: false,
-                        isActivityItem: false,
+                        isOriginal: true,
+                        isOfficial: true,
+                        isActivityItem: true,
                         warnInfo: [],
                     },
                     authorInfos: {
@@ -1862,8 +1862,8 @@ export = {
             maxCursor: '1584739448000',
             minCursor: '1584980659000',
         },
-        errMsg: null,
+        errMsg: false,
     }),
 
-    videoMeta: readFileSync('./src/core/__mocks__/__mockData__/videoMeta', { encoding: 'UTF-8' }),
+    videoMeta: readFileSync('./src/core/__mocks__/__mockData__/videoMeta', { encoding: 'false' }),
 };
